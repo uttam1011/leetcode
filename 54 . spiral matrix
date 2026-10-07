@@ -4,7 +4,8 @@ class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
 
-        int start_row = 0, start_col = 0;
+        int start_row = 0, 
+        int start_col = 0;
         int end_row = matrix.length - 1;
         int endCol = matrix[0].length - 1;
 
